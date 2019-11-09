@@ -1,6 +1,6 @@
 {
-  "name": "@pibritto/react-hooks-example",
-  "homepage": "https://pedrobritto.github.io/@pibritto/react-hooks",
+  "name": "@pbritto/react-hooks-example",
+  "homepage": "https://pedrobritto.github.io/@pbritto/react-hooks",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
@@ -8,7 +8,7 @@
     "react": "link:../node_modules/react",
     "react-dom": "^16.8.6",
     "react-scripts": "^3.0.1",
-    "@pibritto/react-hooks": "link:.."
+    "@pbritto/react-hooks": "link:.."
   },
   "scripts": {
     "start": "react-scripts start",

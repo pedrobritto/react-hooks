@@ -1,23 +1,5 @@
-import * as React from 'react';
+import useCounter from './useCounter';
+import useModal from './useModal';
+import useToggle from './useToggle';
 
-export const useMyHook = () => {
-  let [{
-    counter
-  }, setState] = React.useState<{
-    counter: number;
-  }>({
-    counter: 0
-  });
-
-  React.useEffect(() => {
-    let interval = window.setInterval(() => {
-      counter++;
-      setState({counter})
-    }, 1000)
-    return () => {
-      window.clearInterval(interval);
-    };
-  }, []);
-
-  return counter;
-};
+export { useCounter, useModal, useToggle }

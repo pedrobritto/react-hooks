@@ -1,6 +1,6 @@
 {
-  "short_name": "@pibritto/react-hooks",
-  "name": "@pibritto/react-hooks",
+  "short_name": "@pbritto/react-hooks",
+  "name": "@pbritto/react-hooks",
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",

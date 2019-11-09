@@ -1,6 +1,6 @@
 import React from "react";
 
-import { useCounter, useModal, useToggle } from "@pibritto/react-hooks";
+import { useCounter, useModal, useToggle } from "@pbritto/react-hooks";
 
 const App = () => {
   const counter = useCounter(0);
